@@ -4,4 +4,4 @@ A Natural Language Processing system was built that takes the URL of articles as
 ### Forecasting
 A Data Forecasting system was built that allows users to visualize geopolitical information and predict future metrics. Currently, the data consists of Canada and Australia comparing GDP, Costs of Imported Goods, and Populations, however, the pipeline works with any measurement and nation-state. The tech stack for this system includes `Python`, `Pandas`, `Scikit-Learn`, and `Plotly`.
 ### Deployement
-All the models were shipped to the [ML-App](https://github.com/Diplomatica-HTN/ML-App) Repository
+All the models were shipped to the [ML-App](https://github.com/Diplomatica-HTN/ML-App) Repository to be used on the interactive application
