@@ -1,4 +1,5 @@
 # 🏗 Machine Learning Model Development
+Two sections of models were built. NLP for article summarization and Forecasting to predict geopolitical data.
 ## NLP
 A Natural Language Processing system was built that takes the URL of articles as input and summarizes them into a single paragraph. This pipeline is connected to our web scraping algorithm, meaning a user can enter a search term (e.g. Canadian Election), obtain a list of political articles, and the NLP system summarizes the top 2 write-ups. The architecture of the summarization model consists of data extraction, finding sentence similarity, prioritizing terms, building a similarity matrix, and outputting the final string. The tech stack for this system includes `Python`, `Nltk`, `NetworkX`, `Beautiful`, and `Newspaper`.
 ## Forecasting
